@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "00_Find", "00_Find\00_Find.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02popArrayList", "02popArrayList\02popArrayList.vcxproj", "{3E1B3B57-B761-440C-9EB6-6578FBC6EC49}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_reConstructBinaryTree", "03_reConstructBinaryTree\03_reConstructBinaryTree.vcxproj", "{999AF67D-7850-4505-A471-53861894932F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{3E1B3B57-B761-440C-9EB6-6578FBC6EC49}.Debug|Win32.Build.0 = Debug|Win32
 		{3E1B3B57-B761-440C-9EB6-6578FBC6EC49}.Release|Win32.ActiveCfg = Release|Win32
 		{3E1B3B57-B761-440C-9EB6-6578FBC6EC49}.Release|Win32.Build.0 = Release|Win32
+		{999AF67D-7850-4505-A471-53861894932F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{999AF67D-7850-4505-A471-53861894932F}.Debug|Win32.Build.0 = Debug|Win32
+		{999AF67D-7850-4505-A471-53861894932F}.Release|Win32.ActiveCfg = Release|Win32
+		{999AF67D-7850-4505-A471-53861894932F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
