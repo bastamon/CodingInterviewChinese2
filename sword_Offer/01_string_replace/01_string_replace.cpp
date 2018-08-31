@@ -1,4 +1,4 @@
-//ÇëÊµÏÖÒ»¸öº¯Êı£¬½«Ò»¸ö×Ö·û´®ÖĞµÄÃ¿¸ö¿Õ¸ñÌæ»»³É¡° % 20¡±¡£ÀıÈç£¬µ±×Ö·û´®ÎªWe Are Happy.Ôò¾­¹ıÌæ»»Ö®ºóµÄ×Ö·û´®ÎªWe%20Are % 20Happy¡£
+//è¯·å®ç°ä¸€ä¸ªå‡½æ•°ï¼Œå°†ä¸€ä¸ªå­—ç¬¦ä¸²ä¸­çš„æ¯ä¸ªç©ºæ ¼æ›¿æ¢æˆâ€œ % 20â€ã€‚ä¾‹å¦‚ï¼Œå½“å­—ç¬¦ä¸²ä¸ºWe Are Happy.åˆ™ç»è¿‡æ›¿æ¢ä¹‹åçš„å­—ç¬¦ä¸²ä¸ºWe%20Are % 20Happyã€‚
 
 #include <vector>
 #include <iostream>
@@ -6,7 +6,7 @@ using namespace std;
 
 class Solution {
 public:
-	void replaceSpace(char *str, int length) 
+	void replaceSpace(char *str, int length)
 	{
 		int len = length;
 		for (int i = 0; i < length; i++)
@@ -14,7 +14,7 @@ public:
 			if (*(str + i) == ' ')
 			{
 				len += 2;
-				for (int j = len - 1;j-2 > i;j--)
+				for (int j = len - 1; j - 2 > i; j--)
 				{
 					*(str + j) = *(str + j - 2);
 				}
@@ -26,7 +26,7 @@ public:
 		}
 	}
 
-	//·½·¨2
+	//æ–¹æ³•2
 	//void replaceSpace(char *str, int length)
 	//{
 	//	for (int i; i < length; i++)
@@ -46,8 +46,8 @@ public:
 	}
 
 private:
-	string str;	
-	char *ptr = (char*)malloc(sizeof(string)/sizeof(char));
+	string str;
+	char *ptr = (char*)malloc(sizeof(string) / sizeof(char));
 };
 
 
@@ -59,5 +59,5 @@ int main()
 	ptr = &str[0];
 
 	Solution A = Solution("We Are Happy.");
-	A.replaceSpace(ptr,sizeof(str)/sizeof(str[0]));
+	A.replaceSpace(ptr, sizeof(str) / sizeof(str[0]));
 }
