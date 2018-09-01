@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5DD59279-9B43-4415-B757-6BD627DCF1E5}</ProjectGuid>
-    <RootNamespace>My01_string_replace</RootNamespace>
+    <ProjectGuid>{B7F1D766-E636-4FCC-8813-7517C3021765}</ProjectGuid>
+    <RootNamespace>My04_stack2queue</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,7 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01_string_replace.cpp" />
+    <ClCompile Include="04_stack2queue.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

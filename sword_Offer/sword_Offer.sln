@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_string_replace", "01_str
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_popArrayList", "02_popArrayList\02_popArrayList.vcxproj", "{7D3DE113-A27F-4BBB-8C71-422CA9261582}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_stack2queue", "04_stack2queue\04_stack2queue.vcxproj", "{B7F1D766-E636-4FCC-8813-7517C3021765}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -47,6 +49,14 @@ Global
 		{7D3DE113-A27F-4BBB-8C71-422CA9261582}.Release|Win32.Build.0 = Release|Win32
 		{7D3DE113-A27F-4BBB-8C71-422CA9261582}.Release|x64.ActiveCfg = Release|x64
 		{7D3DE113-A27F-4BBB-8C71-422CA9261582}.Release|x64.Build.0 = Release|x64
+		{B7F1D766-E636-4FCC-8813-7517C3021765}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B7F1D766-E636-4FCC-8813-7517C3021765}.Debug|Win32.Build.0 = Debug|Win32
+		{B7F1D766-E636-4FCC-8813-7517C3021765}.Debug|x64.ActiveCfg = Debug|x64
+		{B7F1D766-E636-4FCC-8813-7517C3021765}.Debug|x64.Build.0 = Debug|x64
+		{B7F1D766-E636-4FCC-8813-7517C3021765}.Release|Win32.ActiveCfg = Release|Win32
+		{B7F1D766-E636-4FCC-8813-7517C3021765}.Release|Win32.Build.0 = Release|Win32
+		{B7F1D766-E636-4FCC-8813-7517C3021765}.Release|x64.ActiveCfg = Release|x64
+		{B7F1D766-E636-4FCC-8813-7517C3021765}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
