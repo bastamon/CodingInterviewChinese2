@@ -4,16 +4,15 @@
 using namespace std;
 class Solution {
 public:
-	int Fibonacci(int n) 
-	{
-		if (n == 0)
+	int jumpFloor(int number) {
+		if (number < 1)
 			return 0;
-		else if (n <= 2)
+		else if (number == 1)
 			return 1;
 		else
 		{
 			int a = 1, b = 1, c = 0;
-			for (int i = 2; i < n; i++)
+			for (int i = 1; i < number; i++)
 			{
 				c = a + b;
 				a = b;
@@ -21,17 +20,15 @@ public:
 			}
 			return c;
 		}
+			
 	}
 };
 
-
-
 int main()
 {
-	int a;
-	Solution A ;
-
-	cin >> a;
-	cout << A.Fibonacci(a) << endl;
+	int num = 5;
+	Solution result;
+	cout << result.jumpFloor(num)<<endl;
+	system("pause");
 	return 0;
 }
