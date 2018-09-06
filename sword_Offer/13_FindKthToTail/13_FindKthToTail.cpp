@@ -15,28 +15,26 @@ struct ListNode
 //µ¹ÊýµÚk
 class Solution {
 public:
-	ListNode* FindKthToTail(ListNode* pListHead, unsigned int k) 
+	ListNode* FindKthToTail(ListNode* pListHead, unsigned int k)
 	{
-		
-		if (pListHead == nullptr || k <= 0)
-			return nullptr;
-		else
+		if (pListHead == NULL)
+			return pListHead;
+		if (k == 0)
+			return NULL;
+		ListNode* kth = NULL, *end = pListHead;
+		int count = 1;
+		while (end != NULL)
 		{
-			unsigned int count = 0;
-			for (ListNode* p = pListHead; p != nullptr; p = p->next)
-				count++;
-			if (k > count)
-				return nullptr;
-			else
+			if (count++ == k)
 			{
-				ListNode* p = pListHead;
-				while (count>0 && p->next != nullptr)
-				{
-					count--;
-					p = p->next;
-				}
-				return p;
+				kth = pListHead;
 			}
+			else if (count>k)
+			{
+				kth = kth->next;
+			}
+			end = end->next;
 		}
+		return kth;
 	}
 };
