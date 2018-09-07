@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A3BF6D99-A4F4-4784-BDFA-E6EB1F01D356}</ProjectGuid>
-    <RootNamespace>My17_MirrorTree</RootNamespace>
+    <ProjectGuid>{E79CEFE7-FCCD-4882-A9DA-99D9C4B5DAE8}</ProjectGuid>
+    <RootNamespace>My18_printMatrixRotate</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,7 +64,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="17_MirrorTree.cpp" />
+    <ClCompile Include="18_printMatrixRotate.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

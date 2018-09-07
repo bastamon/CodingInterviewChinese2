@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="17_MirrorTree.cpp">
+    <ClCompile Include="18_printMatrixRotate.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

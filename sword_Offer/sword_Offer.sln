@@ -39,6 +39,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15_MergeList", "15_MergeLis
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16_HasSubtree", "16_HasSubtree\16_HasSubtree.vcxproj", "{77401DED-22E9-4D3A-B43D-F3B323C8195E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_MirrorTree", "17_MirrorTree\17_MirrorTree.vcxproj", "{A3BF6D99-A4F4-4784-BDFA-E6EB1F01D356}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18_printMatrixRotate", "18_printMatrixRotate\18_printMatrixRotate.vcxproj", "{E79CEFE7-FCCD-4882-A9DA-99D9C4B5DAE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -169,6 +173,18 @@ Global
 		{77401DED-22E9-4D3A-B43D-F3B323C8195E}.Release|Win32.ActiveCfg = Release|Win32
 		{77401DED-22E9-4D3A-B43D-F3B323C8195E}.Release|Win32.Build.0 = Release|Win32
 		{77401DED-22E9-4D3A-B43D-F3B323C8195E}.Release|x64.ActiveCfg = Release|Win32
+		{A3BF6D99-A4F4-4784-BDFA-E6EB1F01D356}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3BF6D99-A4F4-4784-BDFA-E6EB1F01D356}.Debug|Win32.Build.0 = Debug|Win32
+		{A3BF6D99-A4F4-4784-BDFA-E6EB1F01D356}.Debug|x64.ActiveCfg = Debug|Win32
+		{A3BF6D99-A4F4-4784-BDFA-E6EB1F01D356}.Release|Win32.ActiveCfg = Release|Win32
+		{A3BF6D99-A4F4-4784-BDFA-E6EB1F01D356}.Release|Win32.Build.0 = Release|Win32
+		{A3BF6D99-A4F4-4784-BDFA-E6EB1F01D356}.Release|x64.ActiveCfg = Release|Win32
+		{E79CEFE7-FCCD-4882-A9DA-99D9C4B5DAE8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E79CEFE7-FCCD-4882-A9DA-99D9C4B5DAE8}.Debug|Win32.Build.0 = Debug|Win32
+		{E79CEFE7-FCCD-4882-A9DA-99D9C4B5DAE8}.Debug|x64.ActiveCfg = Debug|Win32
+		{E79CEFE7-FCCD-4882-A9DA-99D9C4B5DAE8}.Release|Win32.ActiveCfg = Release|Win32
+		{E79CEFE7-FCCD-4882-A9DA-99D9C4B5DAE8}.Release|Win32.Build.0 = Release|Win32
+		{E79CEFE7-FCCD-4882-A9DA-99D9C4B5DAE8}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
