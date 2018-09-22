@@ -78,7 +78,7 @@ int main()
 {
 	int m = 16, n = 15,count = 1;
 	vector<vector<int>>vec(m);
-	//³õÊ¼»¯Ò»¸öm*nµÄ¶şÎ¬Êı×é
+	//åˆå§‹åŒ–ä¸€ä¸ªm*nçš„äºŒç»´æ•°ç»„
 	for (int i = 0; i < m; i++) 
 	{
 		vec[i].resize(n);
@@ -86,8 +86,10 @@ int main()
 			vec[i][j] = count;
 	}
 
+
+	cout << "è¾“å‡º" << endl;
 	cout << "Row:" << vec.size() << "  Column:" << vec[0].size() << endl;
-	//Êä³ö¶şÎ¬Êı×é 
+	//è¾“å‡ºäºŒç»´æ•°ç»„ 
 	cout << "[" << endl;
 	for (int j = 0; j<vec.size(); j++) 
 	{
